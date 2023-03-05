@@ -16,11 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarAPI\CarAPI.csproj" />
     <ProjectReference Include="..\CarLib\CarLib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="CarAPI\" />
   </ItemGroup>
 
 </Project>
