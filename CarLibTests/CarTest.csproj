@@ -19,4 +19,8 @@
     <ProjectReference Include="..\CarLib\CarLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CarAPI\" />
+  </ItemGroup>
+
 </Project>
