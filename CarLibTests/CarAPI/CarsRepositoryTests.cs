@@ -26,8 +26,8 @@ namespace CarTest.CarAPI
             var actual = repository.GetAll();
 
             Assert.IsNotNull(actual);
-            Assert.AreEqual(3, actual.Count);
             Assert.AreEqual(typeof(List<Car>), actual.GetType());
+            Assert.AreEqual(3, actual.Count);
         }
 
 
